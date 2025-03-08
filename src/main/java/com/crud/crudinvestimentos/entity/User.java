@@ -43,7 +43,4 @@ public class User {
 
     @UpdateTimestamp
     private Instant updatedTimeStamp;
-
-
-
 }

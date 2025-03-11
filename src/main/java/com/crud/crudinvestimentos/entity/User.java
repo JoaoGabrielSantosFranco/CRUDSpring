@@ -13,8 +13,7 @@ import java.util.UUID;
 @Data
 public class User {
 
-    public User(UUID idUser, String username, String email, String password, Instant creationalTimeStamp, Instant updatedTimeStamp) {
-        this.idUser = idUser;
+    public User(String username, String email, String password, Instant creationalTimeStamp, Instant updatedTimeStamp) {
         this.username = username;
         this.email = email;
         this.password = password;
